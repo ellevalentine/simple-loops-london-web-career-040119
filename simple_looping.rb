@@ -48,6 +48,8 @@ end
 
 def for_iterator(number_of_times)
   
+  number 
+  
    for counter in 1..40 do
   puts "The current number is #{counter}."
  end
