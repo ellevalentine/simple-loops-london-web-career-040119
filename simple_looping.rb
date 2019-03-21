@@ -4,7 +4,7 @@ def loop_iterator(10)
   
   loop do 
     
-    number =0
+    counter =0
     
     puts "Welcome to Flatiron School's Web Development Course!"
     number +=1 
@@ -25,22 +25,22 @@ end
 
 def while_iterator(10)
   
-  number_of_times = 0	
+  counter = 0	
   
 	while levitation_force == 10
      puts "Welcome to Flatiron School's Web Development Course!"
-  number_of_times+=1
+  counter+=1
  end
  
 end
 
 def until_iterator(number_of_times)
   
-  number_of_times =5
+  counter =5
   
  	untill levitation_force == 10
      puts "Welcome to Flatiron School's Web Development Course!"
-  number_of_times+=1
+  counter+=1
  end
 
 end
@@ -48,8 +48,9 @@ end
 
 def for_iterator(number_of_times)
   
-  # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
+   for counter in 1..40 do
+  puts "The current number is #{counter}."
+ end
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
