@@ -51,10 +51,9 @@ def for_iterator(number_of_times)
   number = 1..10
   
    for counter in number
-  puts "The current number is #{counter}."
+  puts "Welcome to Flatiron School's Web Development Course!"
  end
   
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+
 end
 
