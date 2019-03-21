@@ -7,7 +7,7 @@ def loop_iterator(10)
     counter =0
     
     puts "Welcome to Flatiron School's Web Development Course!"
-    number +=1 
+    counter +=1 
     break if number == 10
     
   end
@@ -34,9 +34,9 @@ def while_iterator(10)
  
 end
 
-def until_iterator(number_of_times)
+def until_iterator(10)
   
-  counter =5
+  counter =0
   
  	untill levitation_force == 10
      puts "Welcome to Flatiron School's Web Development Course!"
