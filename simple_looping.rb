@@ -15,12 +15,13 @@ def loop_iterator(10)
   
   
 
-def times_iterator(number_of_times)
+def times_iterator(4)
  
  4.times do 
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  put "Welcome to Flatiron School's Web Development Course!"
 end
+end
+
 
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
