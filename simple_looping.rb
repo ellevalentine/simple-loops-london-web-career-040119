@@ -36,6 +36,8 @@ end
 
 def until_iterator(number_of_times)
   
+  number_of_times =5
+  
  	untill levitation_force == 10
      puts "Welcome to Flatiron School's Web Development Course!"
   number_of_times+=1
